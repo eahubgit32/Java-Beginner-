@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Calculator {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        int dailyAllowance, foodCost, difference;
+        
+        System.out.println("Enter Your Daily Allowance: ");
+        dailyAllowance = scanner.nextInt();
+        
+        System.out.println("Enter Your Food Cost: ");
+        foodCost = scanner.nextInt();
+        
+        difference = dailyAllowance - foodCost;
+        
+        System.out.println("Remaining Balance: " + Difference);
+        scanner.close();
+    }
+}
