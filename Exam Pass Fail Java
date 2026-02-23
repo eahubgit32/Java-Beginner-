@@ -10,8 +10,14 @@ class PassAndFailChecker {
         System.out.println("Enter Your Score: ");
         score= scanner.nextInt();
         
-        if (score >= 26){
+        if (score >= 26 && score <=39){
             System.out.println("Congratulations! You passed the exam!");
+        }
+        else if (score == 40){
+            System.out.println("Perfect Score!");
+        }
+        else if (score > 40){
+            System.out.println("Score cannot be beyond 40");
         }
         else {
             System.out.println("Keep studying! You need at least 26 points to pass.");
