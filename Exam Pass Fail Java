@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class PassAndFailChecker {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        int score;
+        
+        System.out.println("Enter Your Score: ");
+        score= scanner.nextInt();
+        
+        if (score >= 26){
+            System.out.println("Congratulations! You passed the exam!");
+        }
+        else {
+            System.out.println("Keep studying! You need at least 26 points to pass.");
+        }
+        scanner.close();
+    }
+}
