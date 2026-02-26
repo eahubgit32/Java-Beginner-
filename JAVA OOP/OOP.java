@@ -9,7 +9,7 @@ class Player{
 }
 
 
-class OOP{
+public class OOP{
 
     static void main(String[] args){
 
