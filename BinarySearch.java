@@ -2,8 +2,17 @@ public class BinarySearch{
     public static void main(String[] args){
         
         int[] binaries = {1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10};
+        int target = 3;
+        int result = binarySearch(binaries, target);
+
+        if(result == -1){
+            System.out.println("Cannot find the Target");
+        }else{
+            System.out.println("Index is at: " + binarySearch(binaries, target));
+        }
         
-        System.out.println("Index is at: " + binarySearch(binaries, 1));
+
+
         
     } 
     

@@ -18,7 +18,6 @@ public class FirstProgram {
         
         System.out.println(args);
         System.out.println("Global Name is: "+ globalName);
-
-        program.myCustomMethod("Passing an Argument");
+        
     }
 }

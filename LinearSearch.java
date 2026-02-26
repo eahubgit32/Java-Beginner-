@@ -1,6 +1,6 @@
 // Java program to implement Linear Search
 
-class TestingFile2 {
+class LinearSearch{
 
     // Function for linear search
     public static int search(int arr[], int x)
