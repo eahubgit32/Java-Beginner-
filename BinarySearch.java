@@ -11,8 +11,6 @@ public class BinarySearch{
             System.out.println("Index is at: " + binarySearch(binaries, target));
         }
         
-
-
         
     } 
     
