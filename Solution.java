@@ -1,9 +1,9 @@
 class Solution {
 
     public static void main(String[] args){
-        int[] nums = {1, 2, 3, 4};
-        Solution sol = new Solution();
-        int[] result = sol.runningSum(nums);
+        //int[] nums = {1, 2, 3, 4};
+        //Solution sol = new Solution();
+        //int[] result = sol.runningSum(nums);
 
     }
 

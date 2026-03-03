@@ -5,9 +5,9 @@ public class ArrayvsArrayList {
     
     public static void main(String[] ar){
 
-        String[] animals = {"Dog", "Cat", "Meow", "Woof"};
+        //String[] animals = {"Dog", "Cat", "Meow", "Woof"};
 
-        ArrayList<String> animArrayList = new ArrayList<>();
+        //ArrayList<String> animArrayList = new ArrayList<>();
         ArrayList<String> animArrayList2 = new ArrayList<>(Arrays.asList("Tiger", "Elephant", "Cow", "Goat"));
 
         System.out.println(animArrayList2);

@@ -3,7 +3,6 @@ package SortAlgorithm;
 import java.util.Random;
 
 public class Insertion {
-    
     public static void main(String[] args){
         Random rand = new Random();
         int[] numbers = new int[10];
@@ -12,12 +11,12 @@ public class Insertion {
             numbers[i] = rand.nextInt(100);
         }
 
-        System.out.println("Before: ");
+        System.out.println("Before");
         printArray(numbers);
 
         insertionSort(numbers);
 
-        System.out.println("After: ");
+        System.out.println("\nAfter");
         printArray(numbers);
     }
 
@@ -26,7 +25,6 @@ public class Insertion {
             System.out.println(numbers[i]);
         }
     }
-
 
     private static void insertionSort(int[] inputArray){
         for (int i =1; i < inputArray.length; i++){
@@ -39,7 +37,6 @@ public class Insertion {
             }
             inputArray[j + 1] = currentValue;
         }
-
     }
 
 }
